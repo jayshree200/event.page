@@ -1,0 +1,196 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(227, 174, 105);
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #ba1417;
+    color: rgb(237, 204, 204);
+    padding: 10px 0;
+}
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 80px; 
+    height: auto;
+}
+.logo {
+    float: right;
+    
+    
+}
+.logo {
+    float: right;
+  
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #f1e7e7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #4b4141;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.home {
+    background-color: #e0e0e0;
+}
+
+.about {
+    background-color: #f4d2d2;
+    text-align: center;
+}
+.address {
+    background-color: #e0f7fa;
+}
+.content {
+    background-color: #fff3e0;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Speaker Section */
+.speaker {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.speaker .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.speaker h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.speaker img {
+    width: 400px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.speaker p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 5px 0;
+}
+@media (max-width: 600px) {
+    .speaker h2 {
+        font-size: 2em;
+    }
+    .speaker img {
+        width: 200px;
+    }
+    .speaker p {
+        font-size: 1em;
+    }
+}
+.content h4 {
+    margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+.speaker .container {
+    flex-direction: column; 
+    align-items: center;
+
+}
+.photo-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.photo-container img{
+    max-width: 100%;
+    height: auto;
+    background-color: aliceblue;
+}
+
+
